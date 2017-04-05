@@ -1,22 +1,22 @@
 # coleho
 spike setup of using clojure for full stack web development.
 
-####development:
->run server: lein ring server-headless  
->autocompile clojurescript: lein cljsbuild auto  
+#### development:
+run server: lein ring server-headless  
+autocompile clojurescript: lein cljsbuild auto  
 
-####included:
->Routing Server (Compojure)  
->React/Raegent/Hiccup  
->HTTP Client  
->Code based inline styling  
->JS source mapping  
+#### included:
+Routing Server (Compojure)  
+React/Raegent/Hiccup  
+HTTP Client  
+Code based inline styling  
+JS source mapping  
 
-####missing:
+#### missing:
 Client side routing (secretary)  
 Data access  
 
-####main componenents explained:
+#### main componenents explained:
 server -> routes.clj  
 index page -> pages.clj  
 spa -> core.cljs  
