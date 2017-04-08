@@ -1,6 +1,7 @@
-(ns coleho.tool
+(ns coleho.main
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [coleho.styles :as s]
+            [coleho.header :as h]
             [reagent.core :as r]
             [cljs-http.client :as http]
             [cljs.core.async :refer [<!]]))
@@ -28,4 +29,4 @@
 
 (defn main []
   (set-versions!)
-  (r/render [canvas] (js/document.getElementById "tool")))
+  (r/render [canvas] (js/document.getElementById "main")))

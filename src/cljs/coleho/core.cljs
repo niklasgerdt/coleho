@@ -1,8 +1,8 @@
 (ns coleho.core
-  (:require [coleho.tool]))
+  (:require [coleho.main]))
 
 (enable-console-print!)
 
 (println "Hello Colejo!")
 
-(coleho.tool/main)
+(coleho.main/main)
