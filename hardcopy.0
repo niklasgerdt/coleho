@@ -5,12 +5,58 @@
      [page :refer [include-js]]
      [page :refer [include-css]]]))
 
-(defn index [a] 
+(defn index [a]
   (html5
     [:head
      [:title "Coleho Tools"]
-     [:meta {:name "viewport" :content="width=device-width, initial-scale=1"}]
      (include-css "w3.css")]
     [:body
+     [:h1 "Coleho Tools"]
      [:div#tool]
      (include-js "core.js")]))
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+16 lines indented                                                                      13,10         All

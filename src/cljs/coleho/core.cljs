@@ -3,6 +3,4 @@
 
 (enable-console-print!)
 
-(println "Hello Colejo!")
-
 (coleho.tool/main)
